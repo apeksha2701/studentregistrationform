@@ -1,0 +1,38 @@
+body{
+    background-image:url(student.png);
+    background-size: cover;
+}
+
+*{
+    margin-top:20px;
+    padding: auto;
+
+   
+}
+
+header{
+    justify-content: center;
+    padding: auto;
+    border-radius: 3%;
+    text-align: center;
+    text-decoration-color: rgb(180, 101, 116);
+}
+
+.form{
+    justify-content: center;
+    padding: auto;
+    border-radius: 3%;
+    text-align: center;
+    font-size: larger;
+    display: block;
+    text-size-adjust: 50%;
+    size: 50%;
+    
+    text-decoration-style: solid;
+    text-decoration-color: #cf6e6e;
+
+}
+.btn{
+    display: flexbox ;
+    color: #67a7c2 ;
+}

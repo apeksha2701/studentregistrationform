@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="style.js"></script>
+    <title>Form</title>
+    <marquee scrollamount="10" direction="right" width="100%"><front size=50><b>Welcome</b></front></marquee>
+</head>
+<body>
+    <header>
+        <em>
+            <h1>STUDENT REGISTRATION FORM </h1>
+        </em>
+    </header>
+    <div class="form">
+        <form name="myform" onsubmit="return validate()">
+            Roll No : <input type="number" name="roll">
+            <span id="numloc"></span>
+            <input type="submit" value="Confirm">
+        </form>
+        <form action="myform1" method="post" action="abc.jsp" onsubmit="return validateform()">
+            Name : <input type="text" name="name">
+            <input type="submit" value="Confirm">
+        </form>
+        <form action="myform1" method="post" action="abc.jsp" onsubmit="return validateform()">
+           College Name : <input type="text" name="College Name">
+            <input type="submit" value="Confirm">
+        </form>
+        <form name="f1" action="register.jsp" onsubmit="return matchpass()">
+            Password:<input type="password" name="password" /><br>
+            <input type="submit" value="Confirm">
+            Re-enter Password:<input type="password" name="password2" />
+            <input type="submit" value="Confirm">
+        </form>
+        <form name="myform2" method="post" action="#" onsubmit="return validateemail();">
+            Email: <input type="text" name="email">
+            <input type="submit" value="Confirm">
+        </form>
+    </label>Gender:
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other <br>  
+</br>  
+    <label>   
+        Course :  
+    </label>     
+    <select>  
+    <option value="Course">Course</option>  
+    <option value="BCA">BCA</option>  
+    <option value="BBA">BBA</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</option>  
+    </select> 
+      
+
+        <form name="myform" onsubmit="return validate()">
+            Mobile No :<input type="number" name="mob">
+            <span id="numloc"></span>
+            <input type="submit" value="Confirm">
+        </form>
+        <div class="button">
+            <input type="submit" name="button" value="register">
+        </div>
+    
+</body>
+</html>
